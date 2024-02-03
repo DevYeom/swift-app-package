@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C3F0AC4B2B2EE3A900D2165B"
-               BuildableName = "AppPackage.app"
-               BlueprintName = "AppPackage"
-               ReferencedContainer = "container:AppPackage.xcodeproj">
+               BuildableName = "AppProject.app"
+               BlueprintName = "AppProject"
+               ReferencedContainer = "container:AppProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -37,7 +37,7 @@
                BlueprintIdentifier = "C3F0AC5F2B2EE3AA00D2165B"
                BuildableName = "AppTests.xctest"
                BlueprintName = "AppTests"
-               ReferencedContainer = "container:AppPackage.xcodeproj">
+               ReferencedContainer = "container:AppProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -48,7 +48,7 @@
                BlueprintIdentifier = "C3F0AC692B2EE3AA00D2165B"
                BuildableName = "AppUITests.xctest"
                BlueprintName = "AppUITests"
-               ReferencedContainer = "container:AppPackage.xcodeproj">
+               ReferencedContainer = "container:AppProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C3F0AC4B2B2EE3A900D2165B"
-            BuildableName = "AppPackage.app"
-            BlueprintName = "AppPackage"
-            ReferencedContainer = "container:AppPackage.xcodeproj">
+            BuildableName = "AppProject.app"
+            BlueprintName = "AppProject"
+            ReferencedContainer = "container:AppProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C3F0AC4B2B2EE3A900D2165B"
-            BuildableName = "AppPackage.app"
-            BlueprintName = "AppPackage"
-            ReferencedContainer = "container:AppPackage.xcodeproj">
+            BuildableName = "AppProject.app"
+            BlueprintName = "AppProject"
+            ReferencedContainer = "container:AppProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -51,7 +51,7 @@
 		C3100B962B396F6000CD640B /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
 		C31141DA2B6E2B8000A15292 /* VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionApp.swift; sourceTree = "<group>"; };
 		C31141DC2B6E2B8A00A15292 /* VisionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionRootView.swift; sourceTree = "<group>"; };
-		C3F0AC4C2B2EE3A900D2165B /* AppPackage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPackage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F0AC4C2B2EE3A900D2165B /* AppProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F0AC4F2B2EE3A900D2165B /* MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApp.swift; sourceTree = "<group>"; };
 		C3F0AC512B2EE3A900D2165B /* PhoneRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRootView.swift; sourceTree = "<group>"; };
 		C3F0AC552B2EE3AA00D2165B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		C3F0AC4D2B2EE3A900D2165B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3F0AC4C2B2EE3A900D2165B /* AppPackage.app */,
+				C3F0AC4C2B2EE3A900D2165B /* AppProject.app */,
 				C3F0AC602B2EE3AA00D2165B /* AppTests.xctest */,
 				C3F0AC6A2B2EE3AA00D2165B /* AppUITests.xctest */,
 			);
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3F0AC4B2B2EE3A900D2165B /* AppPackage */ = {
+		C3F0AC4B2B2EE3A900D2165B /* AppProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3F0AC742B2EE3AA00D2165B /* Build configuration list for PBXNativeTarget "AppPackage" */;
+			buildConfigurationList = C3F0AC742B2EE3AA00D2165B /* Build configuration list for PBXNativeTarget "AppProject" */;
 			buildPhases = (
 				C3F0AC482B2EE3A900D2165B /* Sources */,
 				C3F0AC492B2EE3A900D2165B /* Frameworks */,
@@ -210,9 +210,9 @@
 			);
 			dependencies = (
 			);
-			name = AppPackage;
+			name = AppProject;
 			productName = AppPackage;
-			productReference = C3F0AC4C2B2EE3A900D2165B /* AppPackage.app */;
+			productReference = C3F0AC4C2B2EE3A900D2165B /* AppProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C3F0AC5F2B2EE3AA00D2165B /* AppTests */ = {
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C3F0AC472B2EE3A900D2165B /* Build configuration list for PBXProject "AppPackage" */;
+			buildConfigurationList = C3F0AC472B2EE3A900D2165B /* Build configuration list for PBXProject "AppProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,7 +287,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3F0AC4B2B2EE3A900D2165B /* AppPackage */,
+				C3F0AC4B2B2EE3A900D2165B /* AppProject */,
 				C3F0AC5F2B2EE3AA00D2165B /* AppTests */,
 				C3F0AC692B2EE3AA00D2165B /* AppUITests */,
 			);
@@ -360,12 +360,12 @@
 /* Begin PBXTargetDependency section */
 		C3F0AC622B2EE3AA00D2165B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C3F0AC4B2B2EE3A900D2165B /* AppPackage */;
+			target = C3F0AC4B2B2EE3A900D2165B /* AppProject */;
 			targetProxy = C3F0AC612B2EE3AA00D2165B /* PBXContainerItemProxy */;
 		};
 		C3F0AC6C2B2EE3AA00D2165B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C3F0AC4B2B2EE3A900D2165B /* AppPackage */;
+			target = C3F0AC4B2B2EE3A900D2165B /* AppProject */;
 			targetProxy = C3F0AC6B2B2EE3AA00D2165B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -589,7 +589,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppPackage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppPackage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppProject";
 				TVOS_DEPLOYMENT_TARGET = 17.0;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -615,7 +615,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppPackage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppPackage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppProject";
 				TVOS_DEPLOYMENT_TARGET = 17.0;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -674,7 +674,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3F0AC472B2EE3A900D2165B /* Build configuration list for PBXProject "AppPackage" */ = {
+		C3F0AC472B2EE3A900D2165B /* Build configuration list for PBXProject "AppProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3F0AC722B2EE3AA00D2165B /* Debug */,
@@ -683,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3F0AC742B2EE3AA00D2165B /* Build configuration list for PBXNativeTarget "AppPackage" */ = {
+		C3F0AC742B2EE3AA00D2165B /* Build configuration list for PBXNativeTarget "AppProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3F0AC752B2EE3AA00D2165B /* Debug */,
