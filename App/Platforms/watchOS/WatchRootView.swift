@@ -1,4 +1,5 @@
 #if os(watchOS)
+import AppPackage
 import SwiftUI
 
 struct WatchRootView: View {
@@ -7,7 +8,7 @@ struct WatchRootView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(Hello.world())
         }
         .padding()
     }

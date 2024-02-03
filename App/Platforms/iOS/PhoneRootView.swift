@@ -1,4 +1,5 @@
 #if os(iOS)
+import AppPackage
 import SwiftUI
 
 struct PhoneRootView: View {
@@ -7,7 +8,7 @@ struct PhoneRootView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(Hello.world())
         }
         .padding()
     }

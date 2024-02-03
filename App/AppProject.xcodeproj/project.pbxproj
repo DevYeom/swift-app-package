@@ -16,6 +16,7 @@
 		C3100B972B396F6000CD640B /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3100B962B396F6000CD640B /* WatchRootView.swift */; };
 		C31141DB2B6E2B8000A15292 /* VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31141DA2B6E2B8000A15292 /* VisionApp.swift */; };
 		C31141DD2B6E2B8A00A15292 /* VisionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31141DC2B6E2B8A00A15292 /* VisionRootView.swift */; };
+		C3D2A16F2B6E32BD0059EADC /* AppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C3D2A16E2B6E32BD0059EADC /* AppPackage */; };
 		C3F0AC502B2EE3A900D2165B /* MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0AC4F2B2EE3A900D2165B /* MobileApp.swift */; };
 		C3F0AC522B2EE3A900D2165B /* PhoneRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0AC512B2EE3A900D2165B /* PhoneRootView.swift */; };
 		C3F0AC562B2EE3AA00D2165B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F0AC552B2EE3AA00D2165B /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		C3100B962B396F6000CD640B /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
 		C31141DA2B6E2B8000A15292 /* VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionApp.swift; sourceTree = "<group>"; };
 		C31141DC2B6E2B8A00A15292 /* VisionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionRootView.swift; sourceTree = "<group>"; };
+		C3D2A16C2B6E32340059EADC /* AppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "AppPackage"; path = ..; sourceTree = "<group>"; };
 		C3F0AC4C2B2EE3A900D2165B /* AppProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F0AC4F2B2EE3A900D2165B /* MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApp.swift; sourceTree = "<group>"; };
 		C3F0AC512B2EE3A900D2165B /* PhoneRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRootView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D2A16F2B6E32BD0059EADC /* AppPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +150,23 @@
 			path = visionOS;
 			sourceTree = "<group>";
 		};
+		C3D2A16D2B6E32BD0059EADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3F0AC432B2EE3A900D2165B = {
 			isa = PBXGroup;
 			children = (
+				C3D2A16C2B6E32340059EADC /* AppPackage */,
 				C3100B9A2B39720200CD640B /* Shared */,
 				C3100B852B396A0600CD640B /* Platforms */,
 				C3F0AC4D2B2EE3A900D2165B /* Products */,
 				C3F0AC632B2EE3AA00D2165B /* Tests */,
 				C3F0AC6D2B2EE3AA00D2165B /* UITests */,
+				C3D2A16D2B6E32BD0059EADC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +223,9 @@
 			dependencies = (
 			);
 			name = AppProject;
+			packageProductDependencies = (
+				C3D2A16E2B6E32BD0059EADC /* AppPackage */,
+			);
 			productName = AppPackage;
 			productReference = C3F0AC4C2B2EE3A900D2165B /* AppProject.app */;
 			productType = "com.apple.product-type.application";
@@ -711,6 +726,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3D2A16E2B6E32BD0059EADC /* AppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3F0AC442B2EE3A900D2165B /* Project object */;
 }

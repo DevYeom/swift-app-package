@@ -1,4 +1,5 @@
 #if os(tvOS)
+import AppPackage
 import SwiftUI
 
 struct TVRootView: View {
@@ -7,7 +8,7 @@ struct TVRootView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(Hello.world())
         }
         .padding()
     }

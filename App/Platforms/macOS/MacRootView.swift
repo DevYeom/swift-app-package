@@ -1,4 +1,5 @@
 #if os(macOS)
+import AppPackage
 import SwiftUI
 
 struct MacRootView: View {
@@ -7,7 +8,7 @@ struct MacRootView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(Hello.world())
         }
         .padding()
     }

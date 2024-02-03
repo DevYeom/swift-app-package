@@ -1,4 +1,5 @@
 #if os(iOS)
+import AppPackage
 import SwiftUI
 
 struct PadRootView: View {
@@ -7,7 +8,7 @@ struct PadRootView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(Hello.world())
         }
         .padding()
     }

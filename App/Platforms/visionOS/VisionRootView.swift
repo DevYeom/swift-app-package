@@ -1,4 +1,5 @@
 #if os(visionOS)
+import AppPackage
 import SwiftUI
 
 struct VisionRootView: View {
@@ -7,7 +8,7 @@ struct VisionRootView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(Hello.world())
         }
         .padding()
     }
