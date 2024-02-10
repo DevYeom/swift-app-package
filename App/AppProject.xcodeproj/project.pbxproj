@@ -52,7 +52,7 @@
 		C3100B962B396F6000CD640B /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
 		C31141DA2B6E2B8000A15292 /* VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionApp.swift; sourceTree = "<group>"; };
 		C31141DC2B6E2B8A00A15292 /* VisionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionRootView.swift; sourceTree = "<group>"; };
-		C3D2A16C2B6E32340059EADC /* AppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "AppPackage"; path = ..; sourceTree = "<group>"; };
+		C3D2A16C2B6E32340059EADC /* AppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppPackage; path = ..; sourceTree = "<group>"; };
 		C3F0AC4C2B2EE3A900D2165B /* AppProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F0AC4F2B2EE3A900D2165B /* MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApp.swift; sourceTree = "<group>"; };
 		C3F0AC512B2EE3A900D2165B /* PhoneRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRootView.swift; sourceTree = "<group>"; };
@@ -530,7 +530,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
@@ -572,7 +572,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
@@ -596,7 +596,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppPackageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator";
@@ -622,7 +622,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppPackageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator";
@@ -647,7 +647,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppPackageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator";
@@ -672,7 +672,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppPackageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devyeom.AppProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator";
