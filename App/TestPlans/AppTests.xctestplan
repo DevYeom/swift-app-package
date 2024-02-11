@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "B6F5DE55-97C1-454B-875E-7D37993CB8BD",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "AppCoreTests",
+        "name" : "AppCoreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "AppUITests",
+        "name" : "AppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

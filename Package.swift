@@ -5,25 +5,36 @@ import PackageDescription
 let package = Package(
     name: "AppPackage",
     platforms: [
-        .iOS(.v13),
-        .macOS(.v10_15),
-        .tvOS(.v13),
+        .iOS(.v15),
+        .macOS(.v12),
+        .tvOS(.v15),
         .visionOS(.v1),
-        .watchOS(.v6),
+        .watchOS(.v8),
     ],
     products: [
         .library(
-            name: "AppPackage",
-            targets: ["AppPackage"]
+            name: "AppCore",
+            targets: ["AppCore"]
+        ),
+        .library(
+            name: "AppUI",
+            targets: ["AppUI"]
         ),
     ],
     targets: [
         .target(
-            name: "AppPackage"
+            name: "AppCore"
         ),
         .testTarget(
-            name: "AppPackageTests",
-            dependencies: ["AppPackage"]
+            name: "AppCoreTests",
+            dependencies: ["AppCore"]
+        ),
+        .target(
+            name: "AppUI"
+        ),
+        .testTarget(
+            name: "AppUITests",
+            dependencies: ["AppUI"]
         ),
     ]
 )
