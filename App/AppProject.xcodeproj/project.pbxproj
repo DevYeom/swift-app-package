@@ -91,6 +91,8 @@
 		C3E08D432B78BA6A00659303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3E08D452B78BA6B00659303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E08D5C2B78BEA700659303 /* watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EF5F642B78CB0900215B9C /* AppCoreTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppCoreTests.xctestplan; sourceTree = "<group>"; };
+		C3EF5F652B78CB1400215B9C /* AppUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppUITests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +169,9 @@
 		C3CAD57E2B78C8A000C7344D /* TestPlans */ = {
 			isa = PBXGroup;
 			children = (
+				C3EF5F642B78CB0900215B9C /* AppCoreTests.xctestplan */,
 				C3CAD57F2B78C8CA00C7344D /* AppTests.xctestplan */,
+				C3EF5F652B78CB1400215B9C /* AppUITests.xctestplan */,
 			);
 			path = TestPlans;
 			sourceTree = "<group>";
