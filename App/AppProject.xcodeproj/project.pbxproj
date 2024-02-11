@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C3D4DF662B78BF0200824E65 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DF612B78BF0200824E65 /* WatchApp.swift */; };
 		C3D4DF672B78BF0200824E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D4DF622B78BF0200824E65 /* Assets.xcassets */; };
-		C3D4DF692B78BF0200824E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DF652B78BF0200824E65 /* ContentView.swift */; };
 		C3D4DF6D2B78C68600824E65 /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = C3D4DF6C2B78C68600824E65 /* AppCore */; };
 		C3D4DF6F2B78C68900824E65 /* AppUI in Frameworks */ = {isa = PBXBuildFile; productRef = C3D4DF6E2B78C68900824E65 /* AppUI */; };
 		C3D4DF712B78C69200824E65 /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = C3D4DF702B78C69200824E65 /* AppCore */; };
@@ -23,19 +22,14 @@
 		C3D4DF812B78C6B100824E65 /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = C3D4DF802B78C6B100824E65 /* AppCore */; };
 		C3D4DF832B78C6B100824E65 /* AppUI in Frameworks */ = {isa = PBXBuildFile; productRef = C3D4DF822B78C6B100824E65 /* AppUI */; };
 		C3DC6EB62B78B76000E1968B /* MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC6EB52B78B76000E1968B /* MacApp.swift */; };
-		C3DC6EB82B78B76000E1968B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC6EB72B78B76000E1968B /* ContentView.swift */; };
 		C3DC6EBA2B78B76100E1968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DC6EB92B78B76100E1968B /* Assets.xcassets */; };
 		C3DC6EC92B78B86300E1968B /* TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC6EC82B78B86300E1968B /* TVApp.swift */; };
-		C3DC6ECB2B78B86300E1968B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC6ECA2B78B86300E1968B /* ContentView.swift */; };
 		C3DC6ECD2B78B86400E1968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DC6ECC2B78B86400E1968B /* Assets.xcassets */; };
 		C3DC6EDB2B78B8E800E1968B /* PhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC6EDA2B78B8E800E1968B /* PhoneApp.swift */; };
-		C3DC6EDD2B78B8E800E1968B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC6EDC2B78B8E800E1968B /* ContentView.swift */; };
 		C3DC6EDF2B78B8E900E1968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DC6EDE2B78B8E900E1968B /* Assets.xcassets */; };
 		C3E08D322B78B9DF00659303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E08D2D2B78B9DF00659303 /* Assets.xcassets */; };
 		C3E08D342B78B9DF00659303 /* PadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E08D302B78B9DF00659303 /* PadApp.swift */; };
-		C3E08D352B78B9DF00659303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E08D312B78B9DF00659303 /* ContentView.swift */; };
 		C3E08D422B78BA6A00659303 /* VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E08D412B78BA6A00659303 /* VisionApp.swift */; };
-		C3E08D442B78BA6A00659303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E08D432B78BA6A00659303 /* ContentView.swift */; };
 		C3E08D462B78BA6B00659303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E08D452B78BA6B00659303 /* Assets.xcassets */; };
 		C3E08D692B78BEA800659303 /* watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3E08D5C2B78BEA700659303 /* watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -69,26 +63,20 @@
 		C3D2A16C2B6E32340059EADC /* AppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppPackage; path = ..; sourceTree = "<group>"; };
 		C3D4DF612B78BF0200824E65 /* WatchApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
 		C3D4DF622B78BF0200824E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3D4DF652B78BF0200824E65 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3DC6EB32B78B76000E1968B /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DC6EB52B78B76000E1968B /* MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacApp.swift; sourceTree = "<group>"; };
-		C3DC6EB72B78B76000E1968B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3DC6EB92B78B76100E1968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3DC6EC62B78B86300E1968B /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DC6EC82B78B86300E1968B /* TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVApp.swift; sourceTree = "<group>"; };
-		C3DC6ECA2B78B86300E1968B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3DC6ECC2B78B86400E1968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3DC6ED82B78B8E800E1968B /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DC6EDA2B78B8E800E1968B /* PhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneApp.swift; sourceTree = "<group>"; };
-		C3DC6EDC2B78B8E800E1968B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3DC6EDE2B78B8E900E1968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3DC6EEA2B78B9A200E1968B /* iPadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E08D2D2B78B9DF00659303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E08D302B78B9DF00659303 /* PadApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadApp.swift; sourceTree = "<group>"; };
-		C3E08D312B78B9DF00659303 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3E08D3B2B78BA6A00659303 /* visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E08D412B78BA6A00659303 /* VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionApp.swift; sourceTree = "<group>"; };
-		C3E08D432B78BA6A00659303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3E08D452B78BA6B00659303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E08D5C2B78BEA700659303 /* watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF5F642B78CB0900215B9C /* AppCoreTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppCoreTests.xctestplan; sourceTree = "<group>"; };
@@ -186,7 +174,6 @@
 		C3D4DF602B78BF0200824E65 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				C3D4DF652B78BF0200824E65 /* ContentView.swift */,
 				C3D4DF612B78BF0200824E65 /* WatchApp.swift */,
 				C3D4DF622B78BF0200824E65 /* Assets.xcassets */,
 			);
@@ -197,7 +184,6 @@
 		C3DC6EB42B78B76000E1968B /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				C3DC6EB72B78B76000E1968B /* ContentView.swift */,
 				C3DC6EB52B78B76000E1968B /* MacApp.swift */,
 				C3DC6EB92B78B76100E1968B /* Assets.xcassets */,
 			);
@@ -207,7 +193,6 @@
 		C3DC6EC72B78B86300E1968B /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				C3DC6ECA2B78B86300E1968B /* ContentView.swift */,
 				C3DC6EC82B78B86300E1968B /* TVApp.swift */,
 				C3DC6ECC2B78B86400E1968B /* Assets.xcassets */,
 			);
@@ -217,7 +202,6 @@
 		C3DC6ED92B78B8E800E1968B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C3DC6EDC2B78B8E800E1968B /* ContentView.swift */,
 				C3DC6EDA2B78B8E800E1968B /* PhoneApp.swift */,
 				C3DC6EDE2B78B8E900E1968B /* Assets.xcassets */,
 			);
@@ -227,7 +211,6 @@
 		C3E08D2C2B78B9DF00659303 /* iPadOS */ = {
 			isa = PBXGroup;
 			children = (
-				C3E08D312B78B9DF00659303 /* ContentView.swift */,
 				C3E08D302B78B9DF00659303 /* PadApp.swift */,
 				C3E08D2D2B78B9DF00659303 /* Assets.xcassets */,
 			);
@@ -237,7 +220,6 @@
 		C3E08D3C2B78BA6A00659303 /* visionOS */ = {
 			isa = PBXGroup;
 			children = (
-				C3E08D432B78BA6A00659303 /* ContentView.swift */,
 				C3E08D412B78BA6A00659303 /* VisionApp.swift */,
 				C3E08D452B78BA6B00659303 /* Assets.xcassets */,
 			);
@@ -508,7 +490,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DC6EB82B78B76000E1968B /* ContentView.swift in Sources */,
 				C3DC6EB62B78B76000E1968B /* MacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,7 +498,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DC6ECB2B78B86300E1968B /* ContentView.swift in Sources */,
 				C3DC6EC92B78B86300E1968B /* TVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,7 +506,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DC6EDD2B78B8E800E1968B /* ContentView.swift in Sources */,
 				C3DC6EDB2B78B8E800E1968B /* PhoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,7 +514,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E08D352B78B9DF00659303 /* ContentView.swift in Sources */,
 				C3E08D342B78B9DF00659303 /* PadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,7 +522,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E08D442B78BA6A00659303 /* ContentView.swift in Sources */,
 				C3E08D422B78BA6A00659303 /* VisionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +530,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D4DF692B78BF0200824E65 /* ContentView.swift in Sources */,
 				C3D4DF662B78BF0200824E65 /* WatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -905,6 +881,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.devyeom.app.iOS;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -935,6 +912,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.devyeom.app.iOS;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

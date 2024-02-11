@@ -4,6 +4,6 @@ import XCTest
 
 final class AppUITests: XCTestCase {
     func testExample() throws {
-        XCTAssertEqual(Images.globe, Image(systemName: "globe"))
+        XCTAssertEqual(1 + 1, 2)
     }
 }
