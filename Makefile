@@ -28,3 +28,8 @@ test:
 			-configuration $(CONFIG) \
 			-destination platform="$$platform" || exit 1; \
 	done;
+
+id:
+	@read -p "Enter the new Bundle Identifier: " new_bundle_identifier; \
+	find . -name '*.pbxproj' -exec sed -i '' "s/com.devyeom.app/$$new_bundle_identifier/g" {} + && \
+	echo "Bundle Identifier changed to $$new_bundle_identifier"
