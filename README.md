@@ -1,5 +1,9 @@
 # swift-app-package
 
+<a href="https://github.com/DevYeom/swift-app-package/actions">
+  <img alt="CI" src="https://github.com/DevYeom/swift-app-package/workflows/CI/badge.svg">
+</a>
+
 Welcome to **swift-app-package**, a template project designed to kickstart your app development journey using Swift, SwiftUI, and Swift Package Manager (SPM). With this template, you can develop applications for multiple platforms including `iOS`, `iPadOS`, `macOS`, `tvOS`, `visionOS`, and `watchOS` all within a single project. With the use of [SPM](https://github.com/apple/swift-package-manager), we no longer need third-party dependencies such as [Tuist](https://github.com/tuist/tuist), [XcodeGen](https://github.com/yonaskolb/XcodeGen), or [xUnique](https://github.com/truebit/xUnique).
 
 ## Overview
