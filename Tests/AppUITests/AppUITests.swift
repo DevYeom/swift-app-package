@@ -1,9 +1,10 @@
-import SwiftUI
-import XCTest
+import Testing
 @testable import AppUI
 
-final class AppUITests: XCTestCase {
-    func testExample() throws {
-        XCTAssertEqual(1 + 1, 2)
+@Suite
+struct AppUITests {
+    @Test
+    func example() {
+        #expect(1 + 1 == 2)
     }
 }

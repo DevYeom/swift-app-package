@@ -1,8 +1,10 @@
-import XCTest
+import Testing
 @testable import AppCore
 
-final class AppCoreTests: XCTestCase {
-    func testExample() throws {
-        XCTAssertEqual(1 + 1, 2)
+@Suite
+struct AppCoreTests {
+    @Test
+    func example() {
+        #expect(1 + 1 == 2)
     }
 }
