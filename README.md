@@ -10,7 +10,7 @@ Welcome to **swift-app-package**, a template project designed to kickstart your 
 
 - **Targets**: `AppProject` consists of six targets: `iOS`, `iPadOS`, `macOS`, `tvOS`, `visionOS`, and `watchOS`.
 - **Modules**: `AppPackage` includes two default modules: `AppCore` and `AppUI`.
-- **Test Plans**: There are separate test plans for `AppCoreTests` and `AppUITests`, which are integrated into `AppTests`.
+- **Test Plans**: Running `AppTests` executes all test cases, including `AppCoreTests` and `AppUITests`.
 
 ## Getting Started
 

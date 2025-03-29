@@ -1,9 +1,9 @@
-PLATFORM_IOS = iOS Simulator,name=iPhone 15
+PLATFORM_IOS = iOS Simulator,name=iPhone 16
 PLATFORM_IPADOS = iOS Simulator,name=iPad (10th generation)
 PLATFORM_MACOS = macOS
 PLATFORM_TVOS = tvOS Simulator,name=Apple TV
 PLATFORM_VISIONOS = visionOS Simulator,name=Apple Vision Pro
-PLATFORM_WATCHOS = watchOS Simulator,name=Apple Watch Series 9 (45mm)
+PLATFORM_WATCHOS = watchOS Simulator,name=Apple Watch Series 10 (42mm)
 
 PROJECT = App/AppProject.xcodeproj
 SCHEME = AppTests
