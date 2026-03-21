@@ -32,7 +32,8 @@ git clone --depth 1 https://github.com/DevYeom/swift-app-package
 
 1. **Unit Testing**: Run unit tests based on the test plan by executing `make test`.
 2. **Bundle Identifier Modification**: Modify the bundle identifier using `make id`.
-3. **GitHub Action**: Explore default GitHub Actions settings in `.github/workflows`.
+3. **Project Renaming**: Rename the default project name interactively using `make rename`.
+4. **GitHub Action**: Explore default GitHub Actions settings in `.github/workflows`.
 
 ## License
 
