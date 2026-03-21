@@ -33,3 +33,22 @@ id:
 	@read -p "Enter the new Bundle Identifier: " new_bundle_identifier; \
 	find . -name '*.pbxproj' -exec sed -i '' "s/com.devyeom.app/$$new_bundle_identifier/g" {} + && \
 	echo "Bundle Identifier changed to $$new_bundle_identifier"
+
+CURRENT_NAME ?= AppProject
+
+rename:
+	@read -p "Enter the new Project Name: " new_name; \
+	if [ -z "$$new_name" ]; then \
+		echo "Project name cannot be empty"; \
+		exit 1; \
+	fi; \
+	echo "Renaming project from $(CURRENT_NAME) to $$new_name..."; \
+	find . -name '.DS_Store' -delete; \
+	find . -type f -name 'project.pbxproj' -exec sed -i '' "s/$(CURRENT_NAME)/$$new_name/g" {} +; \
+	find . -type f -name '*.xcscheme' -exec sed -i '' "s/$(CURRENT_NAME)/$$new_name/g" {} +; \
+	find . -type f -name 'Makefile' -exec sed -i '' "s/$(CURRENT_NAME)/$$new_name/g" {} +; \
+	find . -type f -name 'README.md' -exec sed -i '' "s/$(CURRENT_NAME)/$$new_name/g" {} +; \
+	if [ -d "App/$(CURRENT_NAME).xcodeproj" ]; then \
+		mv "App/$(CURRENT_NAME).xcodeproj" "App/$$new_name.xcodeproj"; \
+	fi; \
+	echo "Project renamed from $(CURRENT_NAME) to $$new_name"
